@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block css %}
+  <link rel="stylesheet" href={{url_for('static', filename='css/index.css')}}>
+{% endblock css %}
+
+{% block content %}
+{% endblock content %}
+
+{% block js %}
+  <script src={{ url_for("static", filename="javascript/card-expand.js") }} charset="utf-8"></script>
+{% endblock js %}

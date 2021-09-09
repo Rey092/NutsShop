@@ -1,0 +1,5 @@
+__pycache__/
+*.db
+.DS_STORE
+.python-version
+migrations
